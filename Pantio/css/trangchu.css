@@ -1,0 +1,332 @@
+header {
+  position: fixed;
+  padding: 1em 0 2px 0;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+}
+
+header .follow span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+header .isocial {
+  margin-top: 10px;
+}
+
+header .isocial i {
+  font-size: 20px;
+}
+
+header .isocial i:hover {
+  color: red;
+}
+
+header .logo {
+  margin-top: 20px;
+  width: 40%;
+  margin: 1em auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+header ul {
+  margin-top: 1em;
+  padding: 0px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+header ul li a {
+  color: black;
+  font-size: 15px;
+}
+
+header ul li a i {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+header ul li a span.num {
+  position: absolute;
+  margin-left: -3px;
+  margin-top: -12px;
+  line-height: 15px;
+  background: #111;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+header ul li.cart {
+  margin-right: 1em;
+}
+
+header ul li:hover > a {
+  text-decoration: none;
+  color: gray;
+}
+
+header ul.search {
+  padding: 0px;
+  float: right;
+}
+
+header ul.search li {
+  list-style: none;
+  display: inline-block;
+}
+
+header ul.search li input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+header ul.search li input:focus {
+  outline: none;
+}
+
+header ul.search li a {
+  position: relative;
+  left: -30px;
+}
+
+main .main-top .main-top-img {
+  padding: 0 3em 0 3em;
+}
+
+main .main-top .main-top-img img {
+  width: 100%;
+  height: auto;
+}
+
+main .main-top .main-top-menu {
+  background-color: #111111;
+}
+
+main .main-top .main-top-menu nav {
+  margin-left: 1.2em;
+  background-color: #111111 !important;
+}
+
+main .main-top .main-top-menu nav .navbar-toggle {
+  background-color: white;
+}
+
+main .main-top .main-top-menu nav ul {
+  text-align: center;
+}
+
+main .main-top .main-top-menu nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+}
+
+main .main-top .main-top-menu nav ul li.a {
+  background-image: url("./../img/bg-line.png");
+  background-repeat: no-repeat;
+  background-size: 5px;
+  background-position: left center;
+}
+
+main .main-top .main-top-menu nav ul li a:hover {
+  background-color: #111111 !important;
+  color: #B7B7B7;
+}
+
+main .product-list-item .b {
+  padding: 5px !important;
+}
+
+main .product-list-item .product-item-to {
+  margin-bottom: 1.3em;
+}
+
+footer {
+  padding-top: 12px;
+}
+
+footer hr {
+  border: 0.4px solid;
+}
+
+footer .dangky {
+  text-align: center;
+}
+
+footer .dangky span {
+  text-transform: uppercase;
+}
+
+footer .dangky input {
+  width: 27%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+footer .dangky button {
+  width: 10%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer .menu-footer {
+  padding: 1em 0 0 0;
+}
+
+footer .menu-footer ul {
+  text-align: center;
+  padding: 0px;
+}
+
+footer .menu-footer ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+
+footer .menu-footer ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+footer .menu-footer ul span {
+  color: black;
+  text-transform: uppercase;
+}
+
+footer .menu-footer .isocial {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+footer .menu-footer .isocial i {
+  font-size: 20px;
+}
+
+footer .menu-footer .isocial i:hover {
+  color: red;
+}
+
+footer .menu-footer .end-footer {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  header ul.search {
+    margin-top: -34px;
+  }
+  main .main-top .main-top-menu nav ul li a {
+    font-size: 11px;
+  }
+  .dangky button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header .isocial {
+    margin-top: -35px;
+    /* float: right; */
+    position: absolute;
+    /* float: right; */
+    margin-left: 24em;
+  }
+  header .follow span {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  header ul.search {
+    position: relative;
+    margin-top: 0em;
+  }
+  footer .dangky {
+    text-align: center;
+    font-size: 12px;
+  }
+  .dangky button {
+    font-size: 10px;
+  }
+  footer .menu-footer ul li a {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header .isocial {
+    margin-top: -35px;
+    /* float: right; */
+    position: absolute;
+    /* float: right; */
+    margin-left: 24em;
+  }
+  header .follow span {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  header ul.search {
+    position: relative;
+    margin-top: 0em;
+  }
+  footer .dangky {
+    text-align: center;
+    font-size: 12px;
+  }
+  .dangky button {
+    font-size: 10px;
+  }
+  footer .menu-footer ul li a {
+    font-size: 11px;
+  }
+  nav.navbar {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header .isocial {
+    margin-top: -35px;
+    /* float: right; */
+    position: absolute;
+    /* float: right; */
+    margin-left: 24em;
+  }
+  header .follow span {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  header ul.search {
+    position: relative;
+    margin-top: 0em;
+  }
+  footer .dangky {
+    text-align: center;
+    font-size: 12px;
+  }
+  .dangky button {
+    font-size: 10px;
+  }
+  footer .menu-footer ul li a {
+    font-size: 11px;
+  }
+  nav.navbar {
+    margin-top: 2em;
+  }
+}
+/*# sourceMappingURL=trangchu.css.map */

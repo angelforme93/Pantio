@@ -1,0 +1,414 @@
+header{
+    
+    padding: 1em 0 2px 0;
+    background-color:white;
+    z-index: 999;
+    width: 100%;
+    .follow{
+        span{
+            font-size:18px;
+            text-transform: uppercase;
+        }
+    }
+    .isocial{
+        i{
+            font-size: 20px;
+        }
+        margin-top: 10px;
+        i:hover{ 
+            color: red;
+            
+        }
+        
+        
+    }
+    .logo{
+        margin-top: 20px;
+        width: 40%;
+        margin:1em auto;
+        transition: 0.3s;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    ul{
+        
+        margin-top: 1em;
+        padding: 0px;
+        li{
+
+            list-style: none;
+            display: inline-block;
+            margin-right: 4px;
+                    a{
+                        color: black;
+                        font-size: 15px;
+                        i{
+                            font-size: 18px;
+                            margin-right: 3px;
+                            
+                        }
+                        span.num{
+                            position: absolute;
+                            margin-left: -3px;
+                            margin-top: -12px;
+                            line-height: 15px;
+                            background: #111;
+                            color: #fff;
+                            border-radius: 10px;
+                            margin-right: 5px;
+                            
+                        }
+                    }
+               
+            }
+            li.cart{
+                margin-right: 1em;
+            }
+            li:hover>a{
+                text-decoration: none;
+                color: gray;
+
+            }
+        
+    }
+    ul.search{
+        padding: 0px;
+        float: right;
+        li{
+            
+            list-style: none;
+            display: inline-block;
+            input{
+               
+                outline: none;
+                border: 0;
+                border-bottom:1px solid ;
+                width: 100%;
+             
+            }
+            input:focus{
+                outline:none;
+            }
+            a{
+              position: relative;
+              left: -30px;
+            }
+        }
+    }
+}
+main{ 
+    
+    .sapxep{ 
+        float: right;
+        width: 15% !important;
+        select{
+            width: 100% !important;
+            
+        }
+     }
+     .menu{
+         padding: 0px !important;
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+            
+            background-color: #111111 !important;
+            padding: 0px;
+            ul{
+                
+                li{
+                    a{
+                        color: white;
+                        text-transform: uppercase;
+                    }
+                    ul{
+                        background-color: #111111;
+                        li{
+                            a{
+                                color: white;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+                li:hover{
+                    background-color: #ff0000;
+                }
+                .active{
+                    background-color: #ff0000;
+                }
+            }
+        }
+        .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+            background-color: #ff0000;
+            color: white;
+        }
+        .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+            background-color: #ff0000;
+            color: white;
+        }
+        .dropdown-menu>li>a:hover {
+            color:  white;
+            text-decoration: none;
+            background-color:  #ff0000;
+        }
+     }
+// list0- san pham
+.list-product{
+    .menu-phu{
+        padding-left: 1em;
+        a{
+            color: black;
+        }
+        span{
+            color: black;
+            font-size: 12px;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+    }
+    margin-top: 9em;
+    .item{
+        padding: 0px !important;
+        .item-product{
+            padding: 10px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .item-sales{
+                width: 18%;
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                /* padding: 10px; */
+                padding-top: 10px;
+                text-align: center;
+                img{
+                    width: 100%;
+                    height: auto;
+                    float: left;
+                }
+            .item-sales-span{
+                    
+                    margin: 0 auto;
+                    position: relative;
+                    top:-42px;
+                    span{
+                        font-size: 17px;
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                
+            }
+        }
+        .item-form{
+            margin: 10px 0 0 0;
+            text-align: center;
+            a{
+                display: block;
+                color: black;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-decoration: none;
+            }
+            a.price{
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+
+}
+footer{
+    padding-top: 12px;
+    hr{
+        border: 0.4px solid;
+    }
+    .dangky{
+        text-align: center;
+        span{
+            text-transform: uppercase;
+        }
+        input{
+            width: 27%;
+            // border: 0.2px solid;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        button{
+            width: 10%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .menu-footer{
+       padding: 1em 0 0 0;
+        ul{
+            text-align: center;
+            
+            padding: 0px;
+            li{
+                
+                list-style: none;
+                display: inline;
+                margin: 0 5px 0 5px;
+                a{
+                    color: black;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    line-height: 30px;
+                }
+            }
+            span{
+                color: black;
+                    text-transform: uppercase;
+
+            }
+        }
+        .isocial{
+            margin: 10px 0 10px 0;
+            text-align: center;
+            i{
+                font-size: 20px;
+            }
+            i:hover{ 
+                color: red;
+                
+            }
+        }
+        .end-footer{
+            
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+    }
+}
+
+// RESPONSIVE
+@media only screen and (max-width:768px){
+    main .sapxep {
+        float: right;
+        width: 20% !important;
+    }
+    header ul.search {
+        
+        margin-top: -34px;
+    }
+   
+    .dangky{
+       
+        button{
+            font-size: 12px;
+        }
+    }
+}
+
+@media only screen and (max-width:425px){
+    main .sapxep {
+        float: right;
+        width: 35% !important;
+    }
+    header .isocial {
+        margin-top: -35px;
+        /* float: right; */
+        position: absolute;
+        /* float: right; */
+        margin-left: 24em;
+    }
+    header .follow span {
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+    header ul.search {
+        position: relative;
+       margin-top: 0em;
+    }
+    footer .dangky {
+        text-align: center;
+        font-size: 12px;
+    }
+    .dangky button {
+        font-size: 10px;
+    }
+    footer .menu-footer ul li a {
+        
+        font-size: 11px;
+        
+    }
+}
+
+@media only screen and (max-width:375px){
+    main .sapxep {
+        float: right;
+        width: 40% !important;
+    }
+    header .isocial {
+        margin-top: -35px;
+        /* float: right; */
+        position: absolute;
+        /* float: right; */
+        margin-left: 23em;
+    }
+    header .follow span {
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+    header ul.search {
+        position: relative;
+       margin-top: 0em;
+    }
+    footer .dangky {
+        text-align: center;
+        font-size: 12px;
+    }
+    .dangky button {
+        font-size: 10px;
+    }
+    footer .menu-footer ul li a {
+        
+        font-size: 11px;
+        
+    }
+    
+}
+@media only screen and (max-width:320px){
+    main .sapxep {
+        float: right;
+        width: 50% !important;
+    }
+    header .isocial {
+        margin-top: -35px;
+        /* float: right; */
+        position: absolute;
+        /* float: right; */
+        margin-left: 24em;
+    }
+    header .follow span {
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+    header ul.search {
+        position: relative;
+       margin-top: 0em;
+    }
+    footer .dangky {
+        text-align: center;
+        font-size: 12px;
+    }
+    .dangky button {
+        font-size: 10px;
+    }
+    footer .menu-footer ul li a {
+        
+        font-size: 11px;
+        
+    }
+    
+}
+
